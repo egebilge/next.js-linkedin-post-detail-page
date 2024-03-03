@@ -1,0 +1,41 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.avatarIcon {
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .avatarIcon {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .avatar {
+    width: 2rem;
+    height: 2rem;
+  }
+  .avatarIcon {
+    font-size: 1rem;
+  }
+}

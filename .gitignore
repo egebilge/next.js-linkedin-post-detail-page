@@ -16,6 +16,9 @@
 # production
 /build
 
+# commented to appear in the repo, otherwise this file should not be pushed in the project scenario.
+# /public/post.json
+
 # misc
 .DS_Store
 *.pem

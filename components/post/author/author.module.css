@@ -1,0 +1,62 @@
+.author {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.author .info {
+  margin-left: 0.75rem;
+}
+
+.author img {
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.info h2 {
+  font-size: 1.5rem;
+}
+
+.info p {
+  font-size: 1rem;
+}
+
+.timestamp {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .info h2 {
+    font-size: 1.25rem;
+  }
+  .info p {
+    font-size: 0.8rem;
+  }
+  .author img {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info h2 {
+    font-size: 1rem;
+  }
+  .info p {
+    font-size: 0.7rem;
+  }
+  .author img {
+    width: 4rem;
+    height: 4rem;
+  }
+}

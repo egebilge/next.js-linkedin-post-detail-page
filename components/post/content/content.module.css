@@ -1,0 +1,22 @@
+.content p {
+  line-height: 1.6;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.content img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .content p {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content p {
+    font-size: 0.8rem;
+  }
+}

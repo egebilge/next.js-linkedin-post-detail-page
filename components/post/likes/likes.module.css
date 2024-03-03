@@ -1,0 +1,22 @@
+.likes {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+.likes p {
+  margin-left: 0.5rem;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .likes p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .likes p {
+    font-size: 0.7rem;
+  }
+}

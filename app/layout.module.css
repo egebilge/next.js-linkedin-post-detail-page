@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c33;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    border-radius: 0;
+  }
+}

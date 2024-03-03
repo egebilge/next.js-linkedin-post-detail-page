@@ -1,0 +1,18 @@
+{
+  "id": 1234,
+  "author": {
+    "name": "John Doe",
+    "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "followers": 1000
+  },
+  "content": {
+    "title": "Merhaba! Bu, LinkedIn'e benzer bir tek ekranlık web uygulaması örneğidir. Bu uygulama, React ve TypeScript kullanılarak geliştirilmiştir.",
+    "image": "https://images.unsplash.com/photo-1682687220211-c471118c9e92?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  "timestamp": "1 hafta",
+  "likes": "Jane Doe ve 7 diğerleri",
+  "user": {
+    "name": "Emmy Lou",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+  }
+}

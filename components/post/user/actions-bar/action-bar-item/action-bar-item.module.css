@@ -1,0 +1,42 @@
+.action {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  cursor: pointer;
+}
+
+.action span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.icon {
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 0.85rem;
+  }
+  .action span {
+    font-size: 0.85rem;
+  }
+  .action {
+    gap: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    font-size: 0.75rem;
+  }
+  .action span {
+    font-size: 0.75rem;
+  }
+  .action {
+    gap: 0.25rem;
+  }
+}

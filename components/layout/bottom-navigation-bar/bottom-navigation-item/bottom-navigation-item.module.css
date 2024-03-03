@@ -1,0 +1,53 @@
+.bottomNavItemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.notification {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  min-width: 1rem;
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon {
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.bottomNavItemWrapper a.active {
+  border-top: 3px solid #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 1.5rem;
+  }
+  .notification {
+    top: -7px;
+    right: -5px;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    font-size: 1.25rem;
+  }
+  .notification {
+    top: -5px;
+    right: -5px;
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}

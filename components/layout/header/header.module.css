@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    font-size: 25px;
+  }
+}
